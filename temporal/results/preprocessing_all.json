@@ -1,0 +1,10 @@
+{
+  "scope": "all",
+  "summary": {
+    "successful": 1006,
+    "failed": 0,
+    "skipped_valid": 14,
+    "regenerated_invalid": 0
+  },
+  "failures": []
+}

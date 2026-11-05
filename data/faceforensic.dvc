@@ -1,0 +1,6 @@
+outs:
+- md5: 3b52cbd270a83c2a1ba0357bfb88411e.dir
+  size: 2007533630
+  nfiles: 1020
+  hash: md5
+  path: faceforensic

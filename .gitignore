@@ -1,0 +1,32 @@
+__pycache__
+
+/.vscode
+/config
+/datasets
+/outputs
+/runs
+/weights
+/logs
+/tmp
+
+x.py
+y.py
+z.py
+
+# Raw data and generated temporal artifacts (already tracked files are unaffected)
+# Keep the parent visible so DVC can discover data/faceforensic.dvc.
+/data/faceforensic/
+/data/faceforensics/
+/temporal/features_64/
+/temporal/features/
+/temporal/models/
+*.pt.tmp
+/temporal/features_pe/
+/temporal/models_pe/
+/temporal/features_pe32/
+/temporal/results_pe/*.pt
+
+# Local secrets and machine-specific environment configuration
+/.env
+/.env.*
+!/.env.example

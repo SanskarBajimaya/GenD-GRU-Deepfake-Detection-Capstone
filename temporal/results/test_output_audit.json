@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "unique_test_videos": 100,
+  "prediction_rows": 1200,
+  "model_evaluations": 12,
+  "metrics_recomputed_from_saved_predictions": true,
+  "threshold_verified": 0.5,
+  "summary_sample_stds_verified": true,
+  "validation_rows_preserved": true,
+  "validation_summary_unchanged": true,
+  "checkpoints_unchanged": true,
+  "selection_unchanged": true,
+  "manifest_and_split_unchanged": true
+}

@@ -1,0 +1,327 @@
+{
+  "selected_model": "GRU-32",
+  "selection_basis": "validation_mean_AUROC",
+  "split_seed": 2026,
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "test_groups": 25,
+  "test_videos": 100,
+  "threshold": 0.5,
+  "standard_deviation_ddof": 1,
+  "integrity": {
+    "test_groups": 25,
+    "test_videos": 100,
+    "real": 50,
+    "fake": 50,
+    "disjoint_groups": true,
+    "master_artifacts_valid": true,
+    "frame_consistency_verified": true,
+    "all_ten_checkpoints_valid": true,
+    "checkpoint_hashes": {
+      "32_0": "e5619a9a234cfac3552af7a447c8324f28873f44ce42e87eb956d2d00bf8530a",
+      "32_1": "b9385b1a20f9bc43a901931b97c7af7516801d58b0468752847caedf9e4233d2",
+      "32_2": "c0dece459ffd5fb3bfd33ca17b691cebe5a4c308dd196f5e7e1fab6613df4e7e",
+      "32_3": "144f30ccd8fb949132f68cc86bd3aeb4e790163a2b418744199c3a929453feef",
+      "32_4": "68061e4883fd222318bc56cb978ffa26310dcc781039af330cd1953e8a961119",
+      "64_0": "eaa2f7cd0cdbb4d5481b3906d96c486f87d0d5c2f4cef5dd67fd2dd5b47c12ca",
+      "64_1": "33b1734ffd15c7515280e38f425ad6cfcc4ac1e1e1a0c5ffccc46ce39b4b4892",
+      "64_2": "da07234fe59b430bfccdee62d8aaec597180726f46ab4b3fcb445ff3b82b4b9d",
+      "64_3": "c2f66401bd94c85b849ba50026f3f5e1a8c70a5c43f9240c3c674df7d7b464b9",
+      "64_4": "f256078d5860688008cf0bc18f23287c802f08eb3ce1a568153373b8d5df3a18"
+    }
+  },
+  "test_summary": [
+    {
+      "model": "GenD",
+      "sequence_length": 32,
+      "split": "test",
+      "runs": 1,
+      "auroc_mean": 0.9972,
+      "auroc_std": 0.0,
+      "accuracy_mean": 0.96,
+      "accuracy_std": 0.0,
+      "bce_mean": 0.14113780331730344,
+      "bce_std": 0.0,
+      "precision_mean": 0.9423076923076923,
+      "precision_std": 0.0,
+      "recall_mean": 0.98,
+      "recall_std": 0.0,
+      "f1_mean": 0.9607843137254902,
+      "f1_std": 0.0,
+      "selected_gru": false
+    },
+    {
+      "model": "GRU",
+      "sequence_length": 32,
+      "split": "test",
+      "runs": 5,
+      "auroc_mean": 0.99968,
+      "auroc_std": 0.00033466401061364644,
+      "accuracy_mean": 0.99,
+      "accuracy_std": 0.012247448713915901,
+      "bce_mean": 0.031087229404051835,
+      "bce_std": 0.027984062287255144,
+      "precision_mean": 0.9919967987194879,
+      "precision_std": 0.010962487020250298,
+      "recall_mean": 0.9879999999999999,
+      "recall_std": 0.017888543819998333,
+      "f1_mean": 0.9899389938993899,
+      "f1_std": 0.012371483710182134,
+      "selected_gru": true
+    },
+    {
+      "model": "GenD",
+      "sequence_length": 64,
+      "split": "test",
+      "runs": 1,
+      "auroc_mean": 0.9972,
+      "auroc_std": 0.0,
+      "accuracy_mean": 0.95,
+      "accuracy_std": 0.0,
+      "bce_mean": 0.14219270405355802,
+      "bce_std": 0.0,
+      "precision_mean": 0.9245283018867925,
+      "precision_std": 0.0,
+      "recall_mean": 0.98,
+      "recall_std": 0.0,
+      "f1_mean": 0.9514563106796117,
+      "f1_std": 0.0,
+      "selected_gru": false
+    },
+    {
+      "model": "GRU",
+      "sequence_length": 64,
+      "split": "test",
+      "runs": 5,
+      "auroc_mean": 0.9998400000000001,
+      "auroc_std": 0.00021908902300210313,
+      "accuracy_mean": 0.994,
+      "accuracy_std": 0.005477225575051666,
+      "bce_mean": 0.027558729821873885,
+      "bce_std": 0.01669173506947928,
+      "precision_mean": 0.9921568627450981,
+      "precision_std": 0.010739657990297398,
+      "recall_mean": 0.9960000000000001,
+      "recall_std": 0.008944271909999166,
+      "f1_mean": 0.994019401940194,
+      "f1_std": 0.005460124750802786,
+      "selected_gru": false
+    }
+  ],
+  "differences": [
+    {
+      "sequence_length": 32,
+      "auroc": 0.0024800000000000377,
+      "accuracy": 0.030000000000000027,
+      "bce": -0.1100505739132516,
+      "precision": 0.04968910641179558,
+      "recall": 0.007999999999999896,
+      "f1": 0.02915468017389966
+    },
+    {
+      "sequence_length": 64,
+      "auroc": 0.0026400000000000867,
+      "accuracy": 0.04400000000000004,
+      "bce": -0.11463397423168414,
+      "precision": 0.0676285608583056,
+      "recall": 0.016000000000000125,
+      "f1": 0.04256309126058233
+    }
+  ],
+  "error_analysis": [
+    {
+      "sequence_length": 32,
+      "gend_errors": [
+        "216_164",
+        "452",
+        "716",
+        "987"
+      ],
+      "seeds": [
+        {
+          "seed": 0,
+          "gru_errors": [
+            "216_164"
+          ],
+          "shared_errors": [
+            "216_164"
+          ],
+          "fixed_by_gru": [
+            "452",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        },
+        {
+          "seed": 1,
+          "gru_errors": [],
+          "shared_errors": [],
+          "fixed_by_gru": [
+            "216_164",
+            "452",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        },
+        {
+          "seed": 2,
+          "gru_errors": [
+            "452"
+          ],
+          "shared_errors": [
+            "452"
+          ],
+          "fixed_by_gru": [
+            "216_164",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        },
+        {
+          "seed": 3,
+          "gru_errors": [
+            "216_164",
+            "452",
+            "697_581"
+          ],
+          "shared_errors": [
+            "216_164",
+            "452"
+          ],
+          "fixed_by_gru": [
+            "716",
+            "987"
+          ],
+          "new_gru_errors": [
+            "697_581"
+          ]
+        },
+        {
+          "seed": 4,
+          "gru_errors": [],
+          "shared_errors": [],
+          "fixed_by_gru": [
+            "216_164",
+            "452",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        }
+      ],
+      "gru_error_seed_counts": {
+        "216_164": 2,
+        "452": 2,
+        "697_581": 1
+      },
+      "interpretation": "Per-seed errors; no ensemble or best TEST seed selection"
+    },
+    {
+      "sequence_length": 64,
+      "gend_errors": [
+        "216_164",
+        "452",
+        "697",
+        "716",
+        "987"
+      ],
+      "seeds": [
+        {
+          "seed": 0,
+          "gru_errors": [
+            "452"
+          ],
+          "shared_errors": [
+            "452"
+          ],
+          "fixed_by_gru": [
+            "216_164",
+            "697",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        },
+        {
+          "seed": 1,
+          "gru_errors": [
+            "452"
+          ],
+          "shared_errors": [
+            "452"
+          ],
+          "fixed_by_gru": [
+            "216_164",
+            "697",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        },
+        {
+          "seed": 2,
+          "gru_errors": [],
+          "shared_errors": [],
+          "fixed_by_gru": [
+            "216_164",
+            "452",
+            "697",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        },
+        {
+          "seed": 3,
+          "gru_errors": [
+            "216_164"
+          ],
+          "shared_errors": [
+            "216_164"
+          ],
+          "fixed_by_gru": [
+            "452",
+            "697",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        },
+        {
+          "seed": 4,
+          "gru_errors": [],
+          "shared_errors": [],
+          "fixed_by_gru": [
+            "216_164",
+            "452",
+            "697",
+            "716",
+            "987"
+          ],
+          "new_gru_errors": []
+        }
+      ],
+      "gru_error_seed_counts": {
+        "216_164": 1,
+        "452": 2
+      },
+      "interpretation": "Per-seed errors; no ensemble or best TEST seed selection"
+    }
+  ],
+  "checkpoints_unchanged": true,
+  "retraining": false,
+  "model_reselection": false,
+  "test_based_tuning": false,
+  "ensembling": false,
+  "statistical_significance_test_performed": false,
+  "cross_dataset_generalization_tested": false,
+  "scope": "In-domain FaceForensics++ c23; pretrained GenD was trained on FaceForensics++ c23 (experiment context supplied by user)"
+}

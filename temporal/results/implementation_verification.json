@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-13",
+  "pairing": {
+    "groups": 255,
+    "real": 510,
+    "fake": 510,
+    "total": 1020
+  },
+  "split_groups": {
+    "train": 204,
+    "validation": 26,
+    "test": 25
+  },
+  "no_group_or_source_overlap": true,
+  "prior_pilot_videos": {
+    "train": 20,
+    "validation": 0,
+    "test": 0
+  },
+  "contract_checks": "PASS",
+  "actual_smoke_artifact_checks": "PASS",
+  "smoke_train_validation_compatibility": "PASS",
+  "smoke_groups": [
+    "117_217",
+    "226_491"
+  ],
+  "smoke_videos": 8,
+  "smoke_failures": 0,
+  "smoke_bytes": 2122832,
+  "pilot_dataset_and_split_checks": "PASS",
+  "pilot_probabilities": [
+    0.0179,
+    0.0337,
+    0.9492,
+    0.897
+  ],
+  "early_test_gate": "PASS: rejected before any TEST loader",
+  "compile_check": "PASS",
+  "git_diff_check": "PASS",
+  "full_preprocessing_started": false,
+  "ten_training_runs_started": false
+}

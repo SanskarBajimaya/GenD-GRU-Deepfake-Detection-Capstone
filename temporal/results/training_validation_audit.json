@@ -1,0 +1,110 @@
+{
+  "checkpoints": [
+    {
+      "checkpoint": "temporal\\models\\gru32_seed0_best.pt",
+      "sequence_length": 32,
+      "training_seed": 0,
+      "best_epoch": 7,
+      "auroc": 0.9988905325443787,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.08132976774101995,
+      "training_seconds": 49.8993038999979
+    },
+    {
+      "checkpoint": "temporal\\models\\gru32_seed1_best.pt",
+      "sequence_length": 32,
+      "training_seed": 1,
+      "best_epoch": 1,
+      "auroc": 1.0,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.021484269570128365,
+      "training_seconds": 49.37181150000106
+    },
+    {
+      "checkpoint": "temporal\\models\\gru32_seed2_best.pt",
+      "sequence_length": 32,
+      "training_seed": 2,
+      "best_epoch": 17,
+      "auroc": 0.9977810650887574,
+      "accuracy": 0.9711538461538461,
+      "bce": 0.1796315391763797,
+      "training_seconds": 48.99658559999807
+    },
+    {
+      "checkpoint": "temporal\\models\\gru32_seed3_best.pt",
+      "sequence_length": 32,
+      "training_seed": 3,
+      "best_epoch": 1,
+      "auroc": 1.0,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.036531862901315666,
+      "training_seconds": 49.119715499997255
+    },
+    {
+      "checkpoint": "temporal\\models\\gru32_seed4_best.pt",
+      "sequence_length": 32,
+      "training_seed": 4,
+      "best_epoch": 12,
+      "auroc": 1.0,
+      "accuracy": 1.0,
+      "bce": 0.0005852471092114426,
+      "training_seconds": 49.14251130000048
+    },
+    {
+      "checkpoint": "temporal\\models\\gru64_seed0_best.pt",
+      "sequence_length": 64,
+      "training_seed": 0,
+      "best_epoch": 14,
+      "auroc": 0.9970414201183432,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.09678152443839337,
+      "training_seconds": 51.512233199995535
+    },
+    {
+      "checkpoint": "temporal\\models\\gru64_seed1_best.pt",
+      "sequence_length": 64,
+      "training_seed": 1,
+      "best_epoch": 1,
+      "auroc": 0.9974112426035503,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.05112637002453976,
+      "training_seconds": 51.27392390000023
+    },
+    {
+      "checkpoint": "temporal\\models\\gru64_seed2_best.pt",
+      "sequence_length": 64,
+      "training_seed": 2,
+      "best_epoch": 2,
+      "auroc": 0.9948224852071006,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.06583209790426095,
+      "training_seconds": 51.3567750000002
+    },
+    {
+      "checkpoint": "temporal\\models\\gru64_seed3_best.pt",
+      "sequence_length": 64,
+      "training_seed": 3,
+      "best_epoch": 1,
+      "auroc": 0.9996301775147929,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.03153101165094936,
+      "training_seconds": 51.2403620000041
+    },
+    {
+      "checkpoint": "temporal\\models\\gru64_seed4_best.pt",
+      "sequence_length": 64,
+      "training_seed": 4,
+      "best_epoch": 1,
+      "auroc": 1.0,
+      "accuracy": 0.9903846153846154,
+      "bce": 0.02642411842347349,
+      "training_seconds": 51.7990592999995
+    }
+  ],
+  "total_training_seconds": 503.7122811999943,
+  "all_ten_completed": true,
+  "checkpoint_metadata_and_selection_verified": true,
+  "validation_metrics_reproduced": true,
+  "test_evaluated": false,
+  "selected_gru": 32
+}

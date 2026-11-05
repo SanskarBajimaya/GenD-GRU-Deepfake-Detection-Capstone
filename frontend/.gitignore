@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.coverage
+.env
+uploads/
+outputs/
+tmp/
+*.log
+*.tmp
+*.pt
+*.pth
+*.ckpt
+*.onnx

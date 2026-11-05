@@ -1,0 +1,2 @@
+model,sequence_length,training_seed,split_seed,checkpoint_path,best_epoch,best_val_auroc,best_val_bce,best_val_accuracy,training_seconds
+GRU,32,3,2026,temporal/models/gru32_seed3_best.pt,1,1.0,0.036531862901315666,0.9903846153846154,49.119715499997255

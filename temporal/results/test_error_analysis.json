@@ -1,0 +1,183 @@
+[
+  {
+    "sequence_length": 32,
+    "gend_errors": [
+      "216_164",
+      "452",
+      "716",
+      "987"
+    ],
+    "seeds": [
+      {
+        "seed": 0,
+        "gru_errors": [
+          "216_164"
+        ],
+        "shared_errors": [
+          "216_164"
+        ],
+        "fixed_by_gru": [
+          "452",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      },
+      {
+        "seed": 1,
+        "gru_errors": [],
+        "shared_errors": [],
+        "fixed_by_gru": [
+          "216_164",
+          "452",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      },
+      {
+        "seed": 2,
+        "gru_errors": [
+          "452"
+        ],
+        "shared_errors": [
+          "452"
+        ],
+        "fixed_by_gru": [
+          "216_164",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      },
+      {
+        "seed": 3,
+        "gru_errors": [
+          "216_164",
+          "452",
+          "697_581"
+        ],
+        "shared_errors": [
+          "216_164",
+          "452"
+        ],
+        "fixed_by_gru": [
+          "716",
+          "987"
+        ],
+        "new_gru_errors": [
+          "697_581"
+        ]
+      },
+      {
+        "seed": 4,
+        "gru_errors": [],
+        "shared_errors": [],
+        "fixed_by_gru": [
+          "216_164",
+          "452",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      }
+    ],
+    "gru_error_seed_counts": {
+      "216_164": 2,
+      "452": 2,
+      "697_581": 1
+    },
+    "interpretation": "Per-seed errors; no ensemble or best TEST seed selection"
+  },
+  {
+    "sequence_length": 64,
+    "gend_errors": [
+      "216_164",
+      "452",
+      "697",
+      "716",
+      "987"
+    ],
+    "seeds": [
+      {
+        "seed": 0,
+        "gru_errors": [
+          "452"
+        ],
+        "shared_errors": [
+          "452"
+        ],
+        "fixed_by_gru": [
+          "216_164",
+          "697",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      },
+      {
+        "seed": 1,
+        "gru_errors": [
+          "452"
+        ],
+        "shared_errors": [
+          "452"
+        ],
+        "fixed_by_gru": [
+          "216_164",
+          "697",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      },
+      {
+        "seed": 2,
+        "gru_errors": [],
+        "shared_errors": [],
+        "fixed_by_gru": [
+          "216_164",
+          "452",
+          "697",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      },
+      {
+        "seed": 3,
+        "gru_errors": [
+          "216_164"
+        ],
+        "shared_errors": [
+          "216_164"
+        ],
+        "fixed_by_gru": [
+          "452",
+          "697",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      },
+      {
+        "seed": 4,
+        "gru_errors": [],
+        "shared_errors": [],
+        "fixed_by_gru": [
+          "216_164",
+          "452",
+          "697",
+          "716",
+          "987"
+        ],
+        "new_gru_errors": []
+      }
+    ],
+    "gru_error_seed_counts": {
+      "216_164": 1,
+      "452": 2
+    },
+    "interpretation": "Per-seed errors; no ensemble or best TEST seed selection"
+  }
+]

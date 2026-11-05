@@ -1,0 +1,10 @@
+{
+  "scope": "smoke",
+  "summary": {
+    "successful": 8,
+    "failed": 0,
+    "skipped_valid": 0,
+    "regenerated_invalid": 0
+  },
+  "failures": []
+}

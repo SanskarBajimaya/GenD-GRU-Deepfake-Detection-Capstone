@@ -1,0 +1,19 @@
+{
+  "scope": "all",
+  "model": "yermandy/GenD_PE_L",
+  "feature_dim": 1024,
+  "summary": {
+    "successful": 1012,
+    "failed": 0,
+    "skipped_valid": 8,
+    "regenerated_invalid": 0
+  },
+  "timing": {
+    "videos_timed": 1012,
+    "total_seconds": 46091.2,
+    "frame_loading_seconds": 44842.0,
+    "pe_encoding_seconds": 1224.3,
+    "seconds_per_video": 45.54
+  },
+  "failures": []
+}

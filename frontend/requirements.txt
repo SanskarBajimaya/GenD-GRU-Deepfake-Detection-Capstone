@@ -1,0 +1,17 @@
+gradio==6.31.0
+torch==2.8.0
+torchvision==0.23.0
+# Gradio 6.31 requires huggingface-hub >=1.16; Transformers 4.56 requires <1.
+# The frontend therefore uses the current compatible runtime without changing model weights.
+transformers>=5.22,<6
+timm>=1.0.23,<2
+huggingface-hub>=1.16,<3
+numpy>=2.0,<3
+pandas>=2.2,<4
+pillow>=11,<13
+opencv-python-headless==4.12.0.88
+onnxruntime>=1.21,<2
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+av==16.1.0
+tqdm>=4.67,<5

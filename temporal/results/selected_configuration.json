@@ -1,0 +1,18 @@
+{
+  "sequence_length": 32,
+  "rule": "mean validation AUROC; lower BCE; higher accuracy; exact tie prefers 32",
+  "manifest_hash": "7285a671800c566863195da2e156af76c9a03f1091188d0e2d7d553ccb428bcc",
+  "split_hash": "8ea5797b1a16d99fdf7b30fcdddc248d875bcd23f5bf91e5ddeebc1adfab36fa",
+  "checkpoint_hashes": {
+    "32_0": "e5619a9a234cfac3552af7a447c8324f28873f44ce42e87eb956d2d00bf8530a",
+    "32_1": "b9385b1a20f9bc43a901931b97c7af7516801d58b0468752847caedf9e4233d2",
+    "32_2": "c0dece459ffd5fb3bfd33ca17b691cebe5a4c308dd196f5e7e1fab6613df4e7e",
+    "32_3": "144f30ccd8fb949132f68cc86bd3aeb4e790163a2b418744199c3a929453feef",
+    "32_4": "68061e4883fd222318bc56cb978ffa26310dcc781039af330cd1953e8a961119",
+    "64_0": "eaa2f7cd0cdbb4d5481b3906d96c486f87d0d5c2f4cef5dd67fd2dd5b47c12ca",
+    "64_1": "33b1734ffd15c7515280e38f425ad6cfcc4ac1e1e1a0c5ffccc46ce39b4b4892",
+    "64_2": "da07234fe59b430bfccdee62d8aaec597180726f46ab4b3fcb445ff3b82b4b9d",
+    "64_3": "c2f66401bd94c85b849ba50026f3f5e1a8c70a5c43f9240c3c674df7d7b464b9",
+    "64_4": "f256078d5860688008cf0bc18f23287c802f08eb3ce1a568153373b8d5df3a18"
+  }
+}
